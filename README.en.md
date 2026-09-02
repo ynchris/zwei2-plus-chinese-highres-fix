@@ -32,8 +32,8 @@ Unknown files are rejected before anything is modified.
 
 1. Install the Steam game.
 2. Apply your legally obtained Chinese patch.
-3. Apply any restored-event or Japanese-voice patches you own.
-4. Run `Install.cmd` and select the game directory, or copy this package into the game directory and run it there.
+3. If desired, apply the restored hot-spring event patch and Japanese-voice patch first.
+4. Install this high-resolution fix last. Run `Install.cmd` and select the game directory, or copy this package into the game directory and run it there.
 5. Enable **Use Back Buffer** in the configuration program.
 
 The installer patches both `ZWEI2P.exe` and `ZWEI2PDX9.exe`, creates `.highres-fix.backup` files, verifies the result, and refuses to overwrite an unrelated local `d3d8.dll`.
