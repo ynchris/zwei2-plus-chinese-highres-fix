@@ -64,7 +64,7 @@ The restored hot-spring event file behavior was structurally inspected, but the 
 
 ## Author
 
-ynchris (veteran Chinese game localizer / 汉化老兵)
+ynchris（汉化老兵）
 
 ## Legal
 
