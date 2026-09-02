@@ -4,6 +4,16 @@
 
 本项目修复旧汉化主程序在游戏设置程序中勾选“使用后台缓存”后，分辨率宽或高超过 2048 像素时，3D 人物与场景变成白屏的问题。影片与字幕不受影响的原始症状，正是特效缓存纹理创建被程序内部上限拒绝所致。
 
+## 补丁下载
+
+请在 [Releases 页面](https://github.com/ynchris/zwei2-plus-chinese-highres-fix/releases/latest) 下载以下文件：
+
+```text
+Zwei2Plus-Chinese-HighRes-Fix-v1.0.0.zip
+```
+
+这个 `.zip` 文件才是可以安装的补丁包。请勿下载 GitHub 自动生成的 `Source code (zip)` 或 `Source code (tar.gz)`，它们只是源代码归档，不是玩家用补丁。
+
 ## 修复内容
 
 旧汉化主程序在调用 Direct3D 前执行以下检查：

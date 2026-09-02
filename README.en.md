@@ -4,6 +4,10 @@
 
 Fixes the white 3D scene caused by the old Chinese executable when the configuration option **“使用后台缓存”** is enabled above 2048 pixels in either dimension.
 
+## Patch download
+
+Download `Zwei2Plus-Chinese-HighRes-Fix-v1.0.0.zip` from the [latest release](https://github.com/ynchris/zwei2-plus-chinese-highres-fix/releases/latest). This is the installable patch. GitHub's automatically generated `Source code` archives are not the player patch.
+
 ## What the fix changes
 
 The Chinese executable rejects internal effect textures larger than 2048×2048 before calling Direct3D:
