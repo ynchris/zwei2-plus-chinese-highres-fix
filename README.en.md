@@ -2,7 +2,7 @@
 
 [简体中文说明](README.md)
 
-Fixes the white 3D scene caused by the old Chinese executable when **Use Back Buffer / effect caching** is enabled above 2048 pixels in either dimension.
+Fixes the white 3D scene caused by the old Chinese executable when the configuration option **“使用后台缓存”** is enabled above 2048 pixels in either dimension.
 
 ## What the fix changes
 
@@ -34,7 +34,7 @@ Unknown files are rejected before anything is modified.
 2. Apply your legally obtained Chinese patch.
 3. If desired, apply the restored hot-spring event patch and Japanese-voice patch first.
 4. Install this high-resolution fix last. Run `Install.cmd` and select the game directory, or copy this package into the game directory and run it there.
-5. Enable **Use Back Buffer** in the configuration program.
+5. Open `config.exe` and check **“使用后台缓存”**.
 
 The installer patches both `ZWEI2P.exe` and `ZWEI2PDX9.exe`, creates `.highres-fix.backup` files, verifies the result, and refuses to overwrite an unrelated local `d3d8.dll`.
 
