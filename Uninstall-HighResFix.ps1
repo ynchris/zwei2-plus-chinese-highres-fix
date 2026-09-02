@@ -1,5 +1,7 @@
 param([string]$GamePath)
 
+# Author: ynchris（汉化老兵）
+
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 $OriginalHash = 'F132FE28EC24393C5FD885BEA593F481B8F5D502C3D68ECAEF9C3A1F3ABFB6B2'

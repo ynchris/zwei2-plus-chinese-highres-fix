@@ -62,6 +62,10 @@ The restored hot-spring event file behavior was structurally inspected, but the 
 - 4K uses substantially more VRAM than 1080p.
 - This package does not add arbitrary-resolution support above the 4096 internal texture limit.
 
+## Author
+
+ynchris (veteran Chinese game localizer / 汉化老兵)
+
 ## Legal
 
 The patching scripts are released under the MIT License. The bundled `d3d8.dll` is from d3d8to9 and is redistributed under its own permissive license; see `THIRD_PARTY_NOTICES.md`.

@@ -1,5 +1,7 @@
 param([string]$GamePath)
 
+# Author: ynchris（汉化老兵）
+
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
